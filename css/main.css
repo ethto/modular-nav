@@ -26,8 +26,14 @@ header {
   background-color: #e2e2e2;
 }
 
+ul {
+  margin-bottom: 0;
+  padding: 0;
+}
+
 li {
   display: inline-block;
+  color: #0074d9;
 }
 
 .logo {
@@ -36,4 +42,16 @@ li {
 
 .nav {
   text-align: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
 }
