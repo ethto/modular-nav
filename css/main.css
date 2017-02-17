@@ -29,3 +29,11 @@ header {
 li {
   display: inline-block;
 }
+
+.logo {
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+}
